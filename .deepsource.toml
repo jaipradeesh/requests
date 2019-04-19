@@ -4,6 +4,10 @@ test_patterns = [
   "tests/"
 ]
 
+exclude_patterns = [
+  "requests/compat.py"
+]
+
 [[analyzers]]
 name = "python"
 enabled = true
